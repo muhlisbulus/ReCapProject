@@ -12,7 +12,7 @@ namespace ConsoleUı
             CarManager carManager = new CarManager(new EfCarDal());
             foreach (var Car in carManager.GetAll())
             {
-                Console.WriteLine(Car.DailyPrice);
+                Console.WriteLine(Car.ModelYear);
             }
 
             Console.Read();
